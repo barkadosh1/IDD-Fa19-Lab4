@@ -24,9 +24,9 @@ For the servo motor, the brown wire corresponds to ground, the red corresponds t
 
 **a. Which Arduino pin should the signal line of the servo be attached to?**
 
-Digital pin 9 -- PWM pin, and in the code we are defining it as pin 9 as the pin where the servo is attached
+The servo's signal wire should be connected to the Arduino's digital pin 9 because digital pin 9 allows for PWM. Additionally, I defined pin 9 as the pin where our server will attach in my code, so I will connect to pin 9 to be consistent. A video of the servo moving with the unaltered "sweep" code can be found below.
 
-VIDEO HERE
+[Servo Sweep](https://youtu.be/SJ22aR8_Fqc)
 
 **b. What aspects of the Servo code control angle or speed?**
 
@@ -41,7 +41,7 @@ Before
     delay(15);                       // waits 15ms for the servo to reach the position
   }
   
-    for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+  for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
     myservo.write(pos);              // tell servo to go to position in variable 'pos'
     delay(15);                       // waits 15ms for the servo to reach the position
   }

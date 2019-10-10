@@ -24,7 +24,7 @@ For the servo motor, the brown wire corresponds to ground, the red corresponds t
 
 **a. Which Arduino pin should the signal line of the servo be attached to?**
 
-The servo's signal wire should be connected to the Arduino's digital pin 9 because digital pin 9 allows for PWM. Additionally, I defined pin 9 as the pin where our server will attach in my code, so I will connect to pin 9 to be consistent. A video of the servo moving with the unaltered "sweep" code can be found below.
+The servo's signal wire should be connected to the Arduino's digital pin 9 because digital pin 9 allows for PWM. Additionally, I defined pin 9 as the pin that my servo will connect to in my code, so I will connect to pin 9 to be consistent. A video of the servo moving with the unaltered "sweep" code can be found below.
 
 [Servo Sweep](https://youtu.be/SJ22aR8_Fqc)
 

@@ -93,7 +93,7 @@ I then incorporated a photo sensor to make the output a bit more exciting. Essen
 Made Origami Airplane.
 Have photo sensor. changes in lighting will cause the motor to move, mimicking turbulence in the event of lightning storm 
 
-[Servo Motor Plane Turbulence](https://youtu.be/HLgFyKbvGY0)
+[Servo Motor Plane Turbulence Video](https://youtu.be/HLgFyKbvGY0)
 
-CODE HERE
+[Servo Motor Plane Turbulence Code](https://github.com/barkadosh1/IDD-Fa19-Lab4/blob/master/plane.ino)
  

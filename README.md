@@ -88,10 +88,7 @@ For fun, I attached an embarassing photo of my brother to my puppet. I then had 
 
 For my own design, I first started by following instructions for creating an origami of an airplane, specifically an F16 (I messed up a couple of folds, so plane lovers will probably be able to spot it!). I created a horizontal pole out of paper that connects the plane to the servo motor. In this way, I can use the servo motor to cause the plane to move up and down, simulating the experience of turbulence. 
 
-I then incorporated a photo sensor to make the output a bit more exciting. Essentially, I wanted to have turbulence become noticable during a thunder/lightning storm. So, when the light the photo sensor increases, the servo motor will cause the plane to move up. Therefore, quick flashes of light (such as lightning) will cause the plane to move up and down quickly, mimicking the experience of turbulence. Please see the video for a better visual of this in action.
-
-Made Origami Airplane.
-Have photo sensor. changes in lighting will cause the motor to move, mimicking turbulence in the event of lightning storm 
+I then incorporated a photo sensor to make the output a bit more exciting. Essentially, I wanted to have turbulence become noticable during a thunder/lightning storm. So, when the light the photo sensor senses increases, the servo motor will cause the plane to move up. Therefore, quick flashes of light (such as lightning) will cause the plane to move up and down quickly, mimicking the experience of turbulence. Please see the video for a better visual of this in action.
 
 [Servo Motor Plane Turbulence Video](https://youtu.be/HLgFyKbvGY0)
 

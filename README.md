@@ -55,7 +55,7 @@ Additionally the first loop is for rotating to 180 (or 90 in my case), while the
   
     for (pos = 90; pos >= 0; pos -= 1) { // goes from 90 degrees to 0 degrees
     myservo.write(pos);              // tell servo to go to position in variable 'pos'
-    delay(5);                       // waits 55ms for the servo to reach the position
+    delay(5);                       // waits 5ms for the servo to reach the position
     }
 
 Interestingly, while experimenting with different angle values, I noticed that my servo could not rotate past 180. A video of my slowed servo with smaller rotation range can be found below.

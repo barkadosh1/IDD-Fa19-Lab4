@@ -45,7 +45,7 @@ The original code was the following:
 
 To control the angle it rotates through, I changed the values of "pos" in both loops by replacing 180 with a different number (in my case 90 to create a 90 degree angle range). The delay() line of code is what controls how fast it rotates, as each iteration through the loop changes the degree by 1. Therefore, making delay smaller will cause for faster rotations as there will be less of a delay between each degree and making delay larger will cause for slower rotation.
 
-Additionally the first loop is for rotating to 180 (or 90 in my case), while the second loop is for rotating back to 0. To highlight this difference, I made my delay larger for the first loop to show that it goes slower and smaller for the second low to show that it rotates faster when returning to zero. The code with my altered values is:
+Additionally the first loop is for rotating to 180 (or 90 in my case), while the second loop is for rotating back to 0. To highlight this difference, I made my delay larger for the first loop to show that it goes slower and smaller for the second loop to show that it rotates faster when returning to zero. The code with my altered values is:
 
     for (pos = 0; pos <= 90; pos += 1) { // goes from 0 degrees to 180 degrees
     // in steps of 1 degree

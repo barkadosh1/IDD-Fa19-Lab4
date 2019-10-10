@@ -47,15 +47,15 @@ To control the angle it rotates through, I changed the values of "pos" in both l
 
 Additionally the first loop is for rotating to 180 (or 90 in my case), while the second loop is for rotating back to 0. To highlight this difference, I made my delay larger for the first loop to show that it goes slower and smaller for the second loop to show that it rotates faster when returning to zero. The code with my altered values is:
 
-    for (pos = 0; pos <= 90; pos += 1) { // goes from 0 degrees to 180 degrees
+    for (pos = 0; pos <= 90; pos += 1) { // goes from 0 degrees to 90 degrees
     // in steps of 1 degree
     myservo.write(pos);              // tell servo to go to position in variable 'pos'
-    delay(45);                       // waits 15ms for the servo to reach the position
+    delay(45);                       // waits 45ms for the servo to reach the position
     }
   
-    for (pos = 90; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    for (pos = 90; pos >= 0; pos -= 1) { // goes from 90 degrees to 0 degrees
     myservo.write(pos);              // tell servo to go to position in variable 'pos'
-    delay(5);                       // waits 15ms for the servo to reach the position
+    delay(5);                       // waits 55ms for the servo to reach the position
     }
 
 Interestingly, while experimenting with different angle values, I noticed that my servo could not rotate past 180. A video of my slowed servo with smaller rotation range can be found below.

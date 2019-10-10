@@ -58,7 +58,7 @@ Additionally the first loop is for rotating to 180 (or 90 in my case), while the
     delay(5);                       // waits 5ms for the servo to reach the position
     }
 
-Interestingly, while experimenting with different angle values, I noticed that my servo could not rotate past 180. A video of my slowed servo with smaller rotation range can be found below.
+Interestingly, while experimenting with different angle values, I noticed that my servo could not rotate past 180 degrees. A video of my slowed servo (though with deliberately faster rotation when returning to 0 degrees) with smaller rotation range can be found below.
 
 [Altered Servo Sweep](https://youtu.be/W55Iher3VI0)
 

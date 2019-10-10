@@ -1,6 +1,6 @@
 # Paper Puppets
 
-*A lab report by John Q. Student* 
+*A lab report by Bar Kadosh* 
 
 ## In this Report
 
@@ -8,11 +8,9 @@ To submit your lab, clone [this repository](https://github.com/FAR-Lab/IDD-Fa18-
 
 ## Part A. Actuating DC motors
 
-Hooked up vibration thing as supposed to, used extra wires to hold them in place, used 100 ohm resistor 
+After hooking up the vibration motor, I decided to use extra wires to hold the less sturdy vibration motor wires in place. I also used a 100 Ohm resistor in my setup. A video of the vibration motor working can be found below.
 
-[Video to be added here]
-
-**Link to a video of your virbation motor**
+[Vibration Motor](https://youtu.be/RkOPZg6s4_g)
 
 ## Part B. Actuating Servo motors
 
@@ -20,7 +18,7 @@ Hooked up vibration thing as supposed to, used extra wires to hold them in place
 
 **a. Which color wires correspond to power, ground and signal?**
 
-Signal is control -- connect to 9, brown is ground, red is power
+For the servo motor, the brown wire corresponds to ground, the red corresponds to power, and the orange corresponds to signal. We connect the signal/orange wire to digital pin 9, as it allows us to make use of PWM.
 
 ### Part 2. Connect the Servo to your Arduino
 

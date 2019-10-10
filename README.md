@@ -68,25 +68,32 @@ Interestingly, while experimenting with different angle values, I noticed that m
 
 For the integration, I added a potentiometer into my circuit so that the analog value connected to the potentiometer would be measured. I then mapped the potentiometer value (0 to 1023) to be between 0 and 180 degrees, making it so that fully turning the potentiometer back and forth (between 0 and 1023) would allow for a full 180 degree servo rotation.
 
-VIDEO HERE
+[Potentiometer Servo Integration Video](https://youtu.be/Kzb6wOJiNkU)
 
-Sweep Code HERE
+[Potentiometer Servo Integration Code](https://github.com/barkadosh1/IDD-Fa19-Lab4/blob/master/Potentio_Servo.ino)
 
 ## Part D. Paper puppet
 
 **a. Make a video of your proto puppet.**
 
-VIDEO HERE
+For the proto puppet, I simply followed the online instructions and made use of the paper cutouts I made during lab. At the end, I connected my potentiometer-servo circuit from part C to the proto puppet so that I could make the puppet move its arms by turning the potentiometer.
+
+For fun, I attached an embarassing photo of my brother to my puppet. I then had my brother film my puppet moving its arms with the song "Jump on It" while I controlled the puppet's movements with the potentiometer.
+
+[Dancing Proto Puppet](https://youtu.be/0IknBPMVyCU)
 
 ## Part E. Make it your own
 
 **a. Make a video of your final design.**
 
-EXPLANATION HERE
+For my own design, I first started by following instructions for creating an origami of an airplane, specifically an F16 (though I messed up a couple of folds, so plane lovers will probably be able to spot it!). I created a horizontal pole out of paper that connects the plane to the servo motor. In this way, I can use the servo motor to cause the plane to move up and down, simulating the experience of turbulence. 
+
+I then incorporated a photo sensor to make the output a bit more exciting. Essentially, I wanted to have turbulence become noticable during a thunder/lightning storm. So, when the light the photo sensor increases, the servo motor will cause the plane to move up. Therefore, quick flashes of light (such as lightning) will cause the plane to move up and down quickly, mimicking the experience of turbulence. Please see the video for a better visual of this in action.
 
 Made Origami Airplane.
 Have photo sensor. changes in lighting will cause the motor to move, mimicking turbulence in the event of lightning storm 
-VIDEO HERE
+
+[Servo Motor Plane Turbulence](https://youtu.be/HLgFyKbvGY0)
 
 CODE HERE
  
